@@ -2,7 +2,7 @@
 bin
 obj
 *.user
-Recipes.v11.suo
+*.suo
 
 # mstest test results
 TestResults
