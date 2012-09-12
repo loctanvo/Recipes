@@ -1,0 +1,9 @@
+- Title
+- Date
+- Author
+- Ingredients
+- Instructions
+- Tags
+- Comments
+- Rating (per user?)
+- Picture
