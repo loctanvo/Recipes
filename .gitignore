@@ -2,5 +2,7 @@
 bin
 obj
 *.user
+Recipes.v11.suo
+
 # mstest test results
 TestResults
