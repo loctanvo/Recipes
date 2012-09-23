@@ -1,9 +1,76 @@
 ﻿html { 
-	background: url('../../images/bg.jpg') no-repeat center center fixed; 
+	background: url('../../images/bg_blur.jpg') no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+/**** LOGO ****/
+
+#logo {
+    font-family: OstrichSansBold, 'Six Caps', sans-serif;
+    font-size: 80px;
+    color: #FFF;
+    background-color: #3F8E77;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    text-align: center;
+    line-height: 75px;
+    float: right;
+    margin: 50px 50px 0 0;
+}
+
+#logo div {
+    padding-top: 75px;
+}
+
+/***** CONTENT *****/
+
+h1,h2,h3 {
+    font-family: 'Wire One';
+    
+}
+
+h1 {
+    font-size: 60px;
+    color: #D95250;
+}
+
+h2 {
+    color: #3F8E77;
+    font-size: 40px;
+}
+
+#content {
+    font-family: 'Century Gothic', 'Advent Pro';
+    width: 600px;
+    overflow: hidden;
+    color: #FFF;
+    background-color: rgba(33,33,33, 0.9);
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 16px;
+    border-radius: 8px;
+    float: right;
+    margin: 50px 100px 0 0;
+}
+
+#content li {
+    list-style: circle;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.widthWithoutThickBorder {
+    width: 588px;
+}
+
+.thickBorder {
+    border: solid 6px;
 }
 
 /*

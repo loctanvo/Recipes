@@ -3,6 +3,7 @@ bin
 obj
 *.user
 *.suo
+_ReSharper*
 
 # mstest test results
 TestResults
