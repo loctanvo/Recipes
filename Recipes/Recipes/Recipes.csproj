@@ -135,6 +135,15 @@
   <ItemGroup>
     <Content Include="Content\main.css" />
     <Content Include="Content\normalize.css" />
+    <Content Include="Content\ostrich-sans-fontfacekit\demo.html" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-black-webfont.svg" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-bold-webfont.svg" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-dashed-webfont.svg" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-light-webfont.svg" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-regular-webfont.svg" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-rounded-webfont.svg" />
+    <Content Include="Content\ostrich-sans-fontfacekit\SIL Open Font License 1.1.txt" />
+    <Content Include="Content\ostrich-sans-fontfacekit\stylesheet.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -164,7 +173,28 @@
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-black-webfont.eot" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-black-webfont.ttf" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-black-webfont.woff" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-bold-webfont.eot" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-bold-webfont.ttf" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-bold-webfont.woff" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-dashed-webfont.eot" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-dashed-webfont.ttf" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-dashed-webfont.woff" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-light-webfont.eot" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-light-webfont.ttf" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-light-webfont.woff" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-regular-webfont.eot" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-regular-webfont.ttf" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-regular-webfont.woff" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-rounded-webfont.eot" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-rounded-webfont.ttf" />
+    <Content Include="Content\ostrich-sans-fontfacekit\ostrich-rounded-webfont.woff" />
     <None Include="Scripts\jquery-1.6.2-vsdoc.js" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\bg_blur.jpg" />
+    <Content Include="Images\bun.jpg" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js">
       <DependentUpon>jquery-1.6.2.js</DependentUpon>
@@ -197,25 +227,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Content\Site.css" />
-    <Content Include="Images\accent.png" />
-    <Content Include="Images\aspNetHome.png" />
-    <Content Include="Images\bullet.png" />
-    <Content Include="Images\facebook.png" />
-    <Content Include="Images\findHosting.png" />
-    <Content Include="Images\heroAccent.png" />
-    <Content Include="Images\NuGetGallery.png" />
-    <Content Include="Images\orderedList0.png" />
-    <Content Include="Images\orderedList1.png" />
-    <Content Include="Images\orderedList2.png" />
-    <Content Include="Images\orderedList3.png" />
-    <Content Include="Images\orderedList4.png" />
-    <Content Include="Images\orderedList5.png" />
-    <Content Include="Images\orderedList6.png" />
-    <Content Include="Images\orderedList7.png" />
-    <Content Include="Images\orderedList8.png" />
-    <Content Include="Images\orderedList9.png" />
-    <Content Include="Images\twitter.png" />
-    <Content Include="Images\windowsLive.png" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
