@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Wire+One|Advent+Pro|Six+Caps&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Wire+One|Advent+Pro|Six+Caps|Courgette|Lobster+Two&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="~/Content/ostrich-sans-fontfacekit/stylesheet.css" type="text/css">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -11,10 +11,26 @@
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/knockout")
 </head>
-<body>
-    @RenderBody()
+    <body>
+        <header>
+            <div id="logo">
+                <a href="~/">
+                    <span>Happy</span>
+                    <span>Food</span>            
+                </a>
+            </div>
+        </header>
+        @RenderBody()
+        <div class="clearfix"></div>
+        <footer class="fullWidthAbsolute autoMarginHorizontal centerText wrapAround">
+            <div class="autoMarginHorizontal"><span class="italic">“After a good dinner one can forgive anybody, even one’s own relatives.”</span> - Oscar Wilde</div>
+            @*
+                <span>“There is no love sincerer than the love of food.”</span>
+                <span>- George Bernard Shaw</span>
+            *@
+        </footer>
 
-    @Scripts.Render("~/bundles/jquery")
-    @RenderSection("scripts", required: false)
-</body>
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
 </html>

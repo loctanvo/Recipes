@@ -1,32 +1,19 @@
-﻿<header>
-    <nav>
-    </nav>
-</header>
-<div id="body">
-    <div id="logo">
-        <a href="~/">
-            <span>Happy</span>
-            <span>Food</span>            
-        </a>
-    </div>
-    <div id="content">
-        <h1 data-bind="text: title"></h1>
-        <div id="introduction">
-            <p data-bind="text: introduction"></p>
-            <img class="widthWithoutThickBorder thickBorder" data-bind="attr:{src: imagePath, alt: imageDescription}"/>
-            <div id="ingredients">
-                <h2>Ingredients</h2>
-                <ul data-bind="foreach: ingredients">
-                    <li data-bind="text: $data"></li>
-                </ul>
-            </div>
+﻿<article id="content" class="fullWidthAbsolute" >
+    <h1 data-bind="text: title"></h1>
+    <div>
+        <p data-bind="text: introduction"></p>
+        <img class="widthWithoutThickBorder thickBorder" data-bind="attr:{src: imagePath, alt: imageDescription}"/>
+        <div id="ingredients">
+            <h2>Ingredients</h2>
+            <ul data-bind="foreach: ingredients">
+                <li data-bind="text: $data"></li>
+            </ul>
         </div>
     </div>
-</div>
-
+</article>
 <script>
     function AppViewModel() {
-        this.title = "Knockout title";
+        this.title = "Lorem ipsum";
         this.introduction = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla adipiscing, metus et suscipit accumsan, eros libero accumsan ante, nec lacinia sem neque nec massa. Fusce id turpis sit amet tellus ultrices feugiat. Nulla luctus velit eget erat malesuada non dignissim massa suscipit. Maecenas aliquam luctus velit. Ut at libero at lectus auctor commodo sed vitae magna. Integer massa ipsum, fringilla vel ultrices in, pellentesque in neque. Sed scelerisque eros ac sem interdum vel tincidunt felis pellentesque.";
         this.imagePath = "Images/bun.jpg";
         this.imageDescription = "Image found on Flickr with CC license";

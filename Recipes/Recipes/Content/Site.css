@@ -11,7 +11,14 @@ a {
     color: #FFF;
 }
 
-/**** LOGO ****/
+/**** HEADER ****/
+
+#quote {
+    font-family: Courgette;
+    font-style: italic;
+    background-color: #FFF;
+    width: 200px; 
+}
 
 #logo {
     font-family: OstrichSansBold, 'Six Caps', sans-serif;
@@ -51,24 +58,36 @@ h2 {
 
 #content {
     font-family: 'Century Gothic', 'Advent Pro';
-    width: 600px;
-    overflow: hidden;
-    color: #FFF;
     background-color: rgba(33,33,33, 0.9);
     padding: 20px;
     line-height: 1.5em;
     font-size: 16px;
     border-radius: 8px;
-    float: right;
-    margin: 50px 100px 0 0;
+    margin: 50px auto 20px auto;
+    color: #FFF;
 }
 
 #content li {
     list-style: circle;
 }
 
+/***** FOOTER ******/
+
+footer {
+    color: #FFF;
+    font-family: 'Lobster Two';
+    font-size: 18px;
+    border-top: solid 1px;
+    padding: 5px 100px 20px 100px;
+}
+
+/***** GENERAL *****/
 .fullWidth {
     width: 100%;
+}
+
+.fullWidthAbsolute {
+    width: 600px;
 }
 
 .widthWithoutThickBorder {
@@ -77,6 +96,31 @@ h2 {
 
 .thickBorder {
     border: solid 6px;
+}
+
+.wrapAround {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.autoMarginHorizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /*
