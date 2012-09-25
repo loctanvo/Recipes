@@ -10,23 +10,35 @@
         </a>
     </div>
     <div id="content">
-        <h1>Lorem Ipsum</h1>
-        <div id="story">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla adipiscing, metus et suscipit accumsan, eros libero accumsan ante, nec lacinia sem neque nec massa. Fusce id turpis sit amet tellus ultrices feugiat. Nulla luctus velit eget erat malesuada non dignissim massa suscipit. Maecenas aliquam luctus velit. Ut at libero at lectus auctor commodo sed vitae magna. Integer massa ipsum, fringilla vel ultrices in, pellentesque in neque. Sed scelerisque eros ac sem interdum vel tincidunt felis pellentesque.
-            </p>
-            <img class="widthWithoutThickBorder thickBorder" src="~/Images/bun.jpg" alt="Sample image taken from delicousdays.com"/>
+        <h1 data-bind="text: title"></h1>
+        <div id="introduction">
+            <p data-bind="text: introduction"></p>
+            <img class="widthWithoutThickBorder thickBorder" data-bind="attr:{src: imagePath, alt: imageDescription}"/>
             <div id="ingredients">
                 <h2>Ingredients</h2>
-                <ul>
-                    <li>Mauris vitae dolor aliquet sapien porttitor mattis id in quam.</li>
-                    <li>Pellentesque tincidunt metus vitae nulla adipiscing luctus.</li>
-                    <li>Donec sagittis condimentum nunc, id porttitor purus pulvinar et.</li>
-                    <li>Quisque egestas mauris sed sem imperdiet ullamcorper.</li>
-                    <li>Suspendisse malesuada viverra ipsum, at faucibus odio ultricies at.</li>
+                <ul data-bind="foreach: ingredients">
+                    <li data-bind="text: $data"></li>
                 </ul>
             </div>
         </div>
-
     </div>
 </div>
+
+<script>
+    function AppViewModel() {
+        this.title = "Knockout title";
+        this.introduction = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla adipiscing, metus et suscipit accumsan, eros libero accumsan ante, nec lacinia sem neque nec massa. Fusce id turpis sit amet tellus ultrices feugiat. Nulla luctus velit eget erat malesuada non dignissim massa suscipit. Maecenas aliquam luctus velit. Ut at libero at lectus auctor commodo sed vitae magna. Integer massa ipsum, fringilla vel ultrices in, pellentesque in neque. Sed scelerisque eros ac sem interdum vel tincidunt felis pellentesque.";
+        this.imagePath = "Images/bun.jpg";
+        this.imageDescription = "Image found on Flickr with CC license";
+        this.ingredients =
+            [
+                "Mauris vitae dolor aliquet sapien porttitor mattis id in quam.",
+                "Pellentesque tincidunt metus vitae nulla adipiscing luctus.",
+                "Donec sagittis condimentum nunc, id porttitor purus pulvinar et.",
+                "Quisque egestas mauris sed sem imperdiet ullamcorper.",
+                "Suspendisse malesuada viverra ipsum, at faucibus odio ultricies at."
+            ];
+    }
+
+    ko.applyBindings(new AppViewModel());
+</script>

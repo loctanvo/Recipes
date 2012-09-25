@@ -1,5 +1,4 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 namespace Recipes
 {
@@ -19,6 +18,9 @@ namespace Recipes
 
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
+
+            bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
+                        "~/Scripts/knockout-*"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css",
                         "~/Content/main.css",
