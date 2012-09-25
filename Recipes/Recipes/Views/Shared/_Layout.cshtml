@@ -12,23 +12,24 @@
     @Scripts.Render("~/bundles/knockout")
 </head>
     <body>
-        <header>
-            <div id="logo">
+        <header class="right">
+            <div id="logo" class="right">
                 <a href="~/">
                     <span>Happy</span>
                     <span>Food</span>            
                 </a>
             </div>
+            <div id="quote" class="right">
+                    <div class="quoteText"><span class="italic">“After a good dinner one can forgive anybody, even one’s own relatives."</span><div class="right">Oscar Wilde</div></div>
+            </div>
         </header>
         @RenderBody()
         <div class="clearfix"></div>
-        <footer class="fullWidthAbsolute autoMarginHorizontal centerText wrapAround">
+        @*<footer class="fullWidthAbsolute autoMarginHorizontal centerText wrapAround">
             <div class="autoMarginHorizontal"><span class="italic">“After a good dinner one can forgive anybody, even one’s own relatives.”</span> - Oscar Wilde</div>
-            @*
                 <span>“There is no love sincerer than the love of food.”</span>
                 <span>- George Bernard Shaw</span>
-            *@
-        </footer>
+        </footer>*@
 
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)
