@@ -1,12 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipes", "Recipes\Recipes.csproj", "{FCE66A52-95E1-4670-B7AD-0AB8B4730840}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipies.Web", "Recipes\Recipies.Web.csproj", "{FCE66A52-95E1-4670-B7AD-0AB8B4730840}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{22E539D8-7C1D-44D1-8D77-26701625072D}"
 	ProjectSection(SolutionItems) = preProject
 		Docs\Recipe_structure.txt = Docs\Recipe_structure.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Client", "1. Client", "{E69BC409-9DA6-4E33-A58B-7EC7E714E41A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Server", "2. Server", "{05B4AF60-9F91-4920-A083-DB33AFB66180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Test", "3. Test", "{7C886E5D-5254-482E-8C62-19B94C366CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipes.Data", "Recipes.Data\Recipes.Data.csproj", "{BC4EBD83-D052-4F9B-B4A3-FA4A06B570EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +22,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC4EBD83-D052-4F9B-B4A3-FA4A06B570EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4EBD83-D052-4F9B-B4A3-FA4A06B570EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4EBD83-D052-4F9B-B4A3-FA4A06B570EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4EBD83-D052-4F9B-B4A3-FA4A06B570EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FCE66A52-95E1-4670-B7AD-0AB8B4730840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FCE66A52-95E1-4670-B7AD-0AB8B4730840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE66A52-95E1-4670-B7AD-0AB8B4730840}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -21,5 +33,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC4EBD83-D052-4F9B-B4A3-FA4A06B570EC} = {05B4AF60-9F91-4920-A083-DB33AFB66180}
+		{FCE66A52-95E1-4670-B7AD-0AB8B4730840} = {E69BC409-9DA6-4E33-A58B-7EC7E714E41A}
 	EndGlobalSection
 EndGlobal

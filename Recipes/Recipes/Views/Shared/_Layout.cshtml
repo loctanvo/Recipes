@@ -10,6 +10,7 @@
 
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/knockout")
+
 </head>
     <body>
         <header>
@@ -25,13 +26,9 @@
         </header>
         @RenderBody()
         <div class="clearfix"></div>
-        @*<footer class="fullWidthAbsolute autoMarginHorizontal centerText wrapAround">
-            <div class="autoMarginHorizontal"><span class="italic">“After a good dinner one can forgive anybody, even one’s own relatives.”</span> - Oscar Wilde</div>
-                <span>“There is no love sincerer than the love of food.”</span>
-                <span>- George Bernard Shaw</span>
-        </footer>*@
 
         @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/custom")
         @RenderSection("scripts", required: false)
     </body>
 </html>

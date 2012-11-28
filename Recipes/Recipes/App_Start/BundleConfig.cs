@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace Recipes
+namespace Recipes.App_Start
 {
     public class BundleConfig
     {
@@ -21,6 +21,9 @@ namespace Recipes
 
             bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
                         "~/Scripts/knockout-*"));
+
+            bundles.Add(new ScriptBundle("~/bundles/custom").Include(
+                        "~/Scripts/recipes.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css",
                         "~/Content/main.css",
