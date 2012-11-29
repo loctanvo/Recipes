@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipies.Web", "Recipes\Recipies.Web.csproj", "{FCE66A52-95E1-4670-B7AD-0AB8B4730840}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{22E539D8-7C1D-44D1-8D77-26701625072D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Docs", "4. Docs", "{22E539D8-7C1D-44D1-8D77-26701625072D}"
 	ProjectSection(SolutionItems) = preProject
 		Docs\Recipe_structure.txt = Docs\Recipe_structure.txt
 	EndProjectSection

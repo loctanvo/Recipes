@@ -1,18 +1,9 @@
 ﻿function RecipiesViewModel() {
     var self = this;
 
-    self.title = "Lorem ipsum";
-    self.introduction = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla adipiscing, metus et suscipit accumsan, eros libero accumsan ante, nec lacinia sem neque nec massa. Fusce id turpis sit amet tellus ultrices feugiat. Nulla luctus velit eget erat malesuada non dignissim massa suscipit. Maecenas aliquam luctus velit. Ut at libero at lectus auctor commodo sed vitae magna. Integer massa ipsum, fringilla vel ultrices in, pellentesque in neque. Sed scelerisque eros ac sem interdum vel tincidunt felis pellentesque.";
-    self.imagePath = "Images/bun.jpg";
-    self.imageDescription = "Image found on Flickr with CC license";
-    self.ingredients =
-        [
-            "Mauris vitae dolor aliquet sapien porttitor mattis id in quam.",
-            "Pellentesque tincidunt metus vitae nulla adipiscing luctus.",
-            "Donec sagittis condimentum nunc, id porttitor purus pulvinar et.",
-            "Quisque egestas mauris sed sem imperdiet ullamcorper.",
-            "Suspendisse malesuada viverra ipsum, at faucibus odio ultricies at."
-        ];
+    function recipeItem() {
+
+    }
 }
 
 $(function () {
